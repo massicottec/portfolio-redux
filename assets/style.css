@@ -7,25 +7,44 @@
 header {
     margin: 0;
     width: 100%;
-    display: flex;
+    display: inline-block;
     align-items: center;
     height: 42vh;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     background-color: var(--headercolour);
 }
 
-#imageheader {
-    height: 100%;
-    margin-left: 15px;
-    background-color: var(--backgroundcolour);
-    border-left: var(--bordercolour);
+h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: sans-serif;
 }
 
-img #profile {
-    max-width: 50%;
+/* li a {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: space-between;
+    
+} */
+
+#imageheader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: var(--backgroundcolour);    
+    border: 3px solid var(--bordercolour);
+}
+
+#profile {
+    max-height: 25rem;
     margin: auto;
     display: flex;
-    align-items: center;
+    background-color: var(--backgroundcolour);
 }
 
 h2 {
@@ -38,13 +57,13 @@ h2 {
     align-items: center;
     width: 100%;
     height: 25vh;
-    background-color: #b3b3b3;
     border-left: 3px var(--bordercolour);
 }
 
-.container h2 {
+#about-me h2 {
     display: flex;
     justify-content: center;
+    text-align: center;
     width: 20rem;
     height: 100%;
     background-color: var(--headercolour);
@@ -59,6 +78,17 @@ p {
     padding-top: 1rem;
     height: 100%;
     width: 100%;
+    vertical-align: middle;
+    background-color: #b3b3b3;
+}
+
+#my-project h2 {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    border: 2px solid var(--bordercolour);
+    background-color: var(--headercolour);
 }
 
 footer h3 {
