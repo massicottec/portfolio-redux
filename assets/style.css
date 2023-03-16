@@ -1,3 +1,4 @@
+/* seemed like a decent colour combo based on colour consultant friend, may decide differently with a different layout design */
 :root {
     --backgroundcolour: #b3b3b3;
     --bordercolour: gold;
@@ -34,6 +35,7 @@ nav a {
     
 }
 
+/* Image place holders, best way i could figure how to occupy page dead space until i do a rework of the layout */
 #imageheader {
     display: flex;
     justify-content: space-between;
@@ -88,6 +90,7 @@ p {
     background-color: var(--backgroundcolour);
 }
 
+/* MY attempt at making a grided layout, right up until I tried it one something other than a 1440p monitor, was too late to turn around will have to fix at a later date.  CSS grids seem neat, but will need more time to figure out how to make them properly dynamic*/
 #my-project {
     display: grid;
     width: 100%;
@@ -115,7 +118,7 @@ p {
     left: 10%;
 }
 
-#projectheader {
+#projectheader { 
     display: flex;
     justify-content: center;
     max-width: 100%;
