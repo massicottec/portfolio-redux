@@ -10,7 +10,6 @@ header {
     display: inline-block;
     align-items: center;
     height: 42vh;
-    /* justify-content: space-between; */
     background-color: var(--headercolour);
 }
 
@@ -22,14 +21,18 @@ h1 {
     font-family: sans-serif;
 }
 
-/* li a {
-    display: inline-flex;
-    margin: 0;
-    padding: 0;
+nav a {
+    display: inline;
+    font-size: 2rem;
+    margin: 3rem;
+    padding: 1rem;
+    position: relative;
+    left: 29%;
+    text-align: left;
     width: 100%;
     justify-content: space-between;
     
-} */
+}
 
 #imageheader {
     display: flex;
@@ -48,6 +51,7 @@ h1 {
 }
 
 h2 {
+    font-size: 2rem;
     font-family:sans-serif; color: black;
 }
 
@@ -57,19 +61,22 @@ h2 {
     align-items: center;
     width: 100%;
     height: 25vh;
-    border-left: 3px var(--bordercolour);
+    border-left: 3px solid var(--bordercolour);
+    background-color: var(--backgroundcolour);
 }
 
 #about-me h2 {
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     width: 20rem;
     height: 100%;
     background-color: var(--headercolour);
 }
 
 p {
+    display: flex;
+    justify-content: left;
     font-family:sans-serif; color: black;
     border-left: 2px solid gold;
     border-top: 2px solid gold;
@@ -78,21 +85,71 @@ p {
     padding-top: 1rem;
     height: 100%;
     width: 100%;
-    vertical-align: middle;
+    align-items: center;
     background-color: #b3b3b3;
 }
 
-#my-project h2 {
+#my-project {
+    display: grid;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 40rem;
+    row-gap: 15px;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "main main main";
+    border: 2px solid var(--bordercolour);
+    background-color: var(--backgroundcolour);
+}
+
+.gridHead {
+    grid-area: header;
+    justify-self: center;
+    align-self: center;
+    margin-right: 30rem;
+    position: relative;
+    left: 10%;
+}
+
+#projectheader {
     display: flex;
-    width: 100%;
+    justify-content: center;
+    max-width: 100%;
     height: 5rem;
     padding: 1rem;
     border: 2px solid var(--bordercolour);
     background-color: var(--headercolour);
 }
 
+#gridImg {
+    max-height: 25vh;
+    display: flex;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    background-color: var(--headercolour);
+    border: 2px solid var(--bordercolour);
+}
+
 footer h3 {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer a {
+    display: inline;
+    font-size: 1rem;
 }
 
 @media screen {

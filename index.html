@@ -7,19 +7,16 @@
     <title>Portfolio With Chris</title>
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Document</title>
 </head>
 
 <body>
     <header id="home">
         <h1>Chris's Work Portfolio</h1>
-        <nav>
-            <ul> <!--try to make this a header that will stay on top of screen-->
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#my-project">My Projects</a></li>
-                <li><a href="#contact-info">Contact Info</a></li>
-            </ul>
+        <nav id="navbar">
+            <a href="#home">Home</a>
+            <a href="#about-me">About Me</a>
+            <a href="#my-project">My Projects</a>
+            <a href="#contact-info">Contact Info</a>
         </nav>
         <div id="imageheader">
             <img id="profile" src="./assets/Images/panda orly.png" alt="profile picture of a orly panda">
@@ -37,76 +34,50 @@
                 </p>
         </section>
 
-        <section id="my-project" class="container">
-            <h2>My Projects</h2>
-            <aside>
-                <div>
-                    <h3>Prework Study Guide</h3>
-                    <a href="https://github.com/massicottec/prework-study-guide"><img id="coming-soon" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo"></a>
+        <h2 id="projectheader">My Projects</h2>
+        <section id="my-project" class="container2">
+            <!-- <h2>My Projects</h2> -->
+                <div class="gridHead">
+                    <a href="https://github.com/massicottec/prework-study-guide"><img id="gridImg" src="./assets/Images/prework-guide.png" alt="B.S.I. coming soon logo"></a>
                 </div>
 
-                <div>
-                    <h3>Horiseon Marketing Refactor</h3>
-                    <a href="https://github.com/massicottec/horiseon-marketing"><img id="coming-soon" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo"></a>
+                <div class="gridMain">
+                    <a href="https://github.com/massicottec/horiseon-marketing"><img id="gridImg" src="./assets/Images/horiseon-readme.png" alt="B.S.I. coming soon logo"></a>
                 </div>
 
-                <div>
-                    <h3>Portfolio Redux</h3>
-                    <a href="https://github.com/massicottec/portfolio-redux"><img id="coming-soon" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo"></a>
+                <div class="gridMain">
+                    <a href="https://github.com/massicottec/portfolio-redux"><img id="gridImg" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo"></a>            
                 </div>
 
-                <div>
-                    <h3>Coming Soon</h3>
-                    <img id="coming-soon" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo">
+                <div class="gridMain">
+                    <img id="gridImg" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo">
                 </div>
 
-                <div>
-                    <h3>Coming Soon</h3>
-                    <img id="coming-soon" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo">
+                <div class="gridMain">
+                    <img id="gridImg" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo">
                 </div>
 
-                <div>
-                    <h3>Coming Soon</h3>
-                    <img id="coming-soon" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo">
+                <div class="gridMain">
+                    <img id="gridImg" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo">
                 </div>
 
-                <div>
-                    <h3>Coming Soon</h3>
-                    <img id="coming-soon" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo">
+                <div class="gridMain">
+                    <img id="gridImg" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo">
                 </div>
-
-                <div>
-                    <h3>Coming Soon</h3>
-                    <img id="coming-soon" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo">
-                </div>
-
-                <div>
-                    <h3>Coming Soon</h3>
-                    <img id="coming-soon" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo">
-                </div>
-
-                <div>
-                    <h3>Coming Soon</h3>
-                    <img id="coming-soon" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo">
-                </div>
-
-                <div>
-                    <h3>Coming Soon</h3>
-                    <img id="coming-soon" src="./assets/Images/coming-soon.jpg" alt="B.S.I. coming soon logo">
-                </div>
-            </aside>
         </section>
-
     </main>
     
     <footer id="contact-info">
-        <h3>Contact Info</h3>
-        <ul>
-            <li>Email: &nbsp;&nbsp;&nbsp;&nbsp; nagirreks123@gmail.com</li>
-            <li>Phone: &nbsp;&nbsp; 1-(705)-255-7447</li>
-            <li>Github: &nbsp;&nbsp;&nbsp;<a href="https://github.com/massicottec">https://github.com/massicottec</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/chris-massicotte-47b39a266/">https://www.linkedin.com/in/chris-massicotte-47b39a266/</a></li>
-        </ul>
+        <h3>Contact Info
+            <a href="#home">Return</a>   
+        </h3>
+        <div>
+            <p> &nbsp;&nbsp;&nbsp;&nbsp; nagirreks123@gmail.com</li>
+            Phone: &nbsp;&nbsp; 1-(705)-255-7447</li>
+            Github: &nbsp;&nbsp;&nbsp;<a href="https://github.com/massicottec">https://github.com/massicottec</a></li>
+            LinkedIn: <a href="https://www.linkedin.com/in/chris-massicotte-47b39a266/">https://www.linkedin.com/in/chris-massicotte-47b39a266/</a></li>
+            </p>
+        </div>
     </footer>
 </body>
 </html>
