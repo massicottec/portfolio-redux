@@ -9,7 +9,7 @@ This was the start of a personal portfolio for future use.  It both brings all o
 ## Mock-UP
 
 https://github.com/massicottec/portfolio-redux
-![webpage-mock-up](https://github.com/massicottec/horiseon-marketing/blob/main/assets/images/horiseon-readme.png?raw=true)
+![webpage-mock-up](https://github.com/massicottec/portfolio-redux/blob/main/assets/Images/portfolio-redux.png?raw=true)
   
 ## Credits
 Chris Massicotte
